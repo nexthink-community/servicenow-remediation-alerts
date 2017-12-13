@@ -55,7 +55,7 @@ RemediationManager.prototype = {
     _createRecord: function(current, email, caller_id, type) {
         current.caller_id = caller_id;
         current.assigned_to = caller_id;
-        current.comments =  '[code]' + "Remediation alert received from: " + email.origemail + "<br><br>" + email.body_html+'[/code]';        
+        current.comments =  '[code]' + "Remediation alert received from: " + email.origemail + "<br><br>" + email.body_html + '[/code]';        
         
         current.short_description = email.subject;
 
