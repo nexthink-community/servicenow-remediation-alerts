@@ -107,6 +107,7 @@ As mentioned in the description chapter, the devices affected by the Nexthink al
 If this list is not visible in the ServiceNow instance, the Incident and Change Request view must be edited to display this list.
 Please note that for this operation, the user must have enough privileges to edit views in ServiceNow.
 To do so, once in the ServiceNow instance, please follow the steps below:
+- Change the application scope to Global
 - Go to any existing incident/change request
 - Right click in the top grey bar and select Configure -> Form Layout
 - Under Form view and section area select the section where the Affected CI list will be displayed
@@ -121,6 +122,7 @@ Unit tests to be run in such platform are included.
 
 ### Prepare environment
 In the ServiceNow instance:
+- Change the application scope to Global
 - Browse Automatic Test Framework on the main menu
 - Select Tests
 - Insert test records, copying and pasting every test snippet
@@ -130,6 +132,7 @@ In the ServiceNow instance:
 
 ### Run the tests
 In the ServiceNow instance:
+- Change the application scope to Global
 - Browse Automatic Test Framework on the main menu
 - Select Suites
 - Click on the test suite just created
